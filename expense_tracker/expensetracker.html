@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="expensetracker.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <form id="myform">
+            <label>Amount</label>
+            <input type="number" id="amount">
+            <label>Category</label>
+            <input type="text" id="category">
+            <label>Date</label>
+            <input type="date" id="date1">
+            <input type="submit" value="store" onclick="displayFn()">
+        </form>
+        <div id="displayexpense">
+            
+        </div>
+    </div>
+
+    <script src="expensetracker.js"></script>
+</body>
+</html>
